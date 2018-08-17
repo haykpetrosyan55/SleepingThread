@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8da6e"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/size_10dp"
+        android:layout_marginTop="@dimen/size_10dp"
+        android:text="@string/sleep_time_in_seconds"
+        android:textSize="@dimen/size_30dp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:layout_width="@dimen/size_80dp"
+        android:layout_height="@dimen/size_50dp"
+        android:layout_below="@+id/text_id"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/size_10dp"
+        android:background="#caa007"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_id"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style"
+        android:text="@string/run_async_task" />
+
+    <TextView
+        android:id="@+id/text_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_id"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sleeping Thread</string>
+    <string name="sleep_time_in_seconds">Sleep time in Seconds:</string>
+    <string name="run_async_task"> Run Async Task </string>
+    <string name="pre_text">Wait for</string>
+    <string name="post_text">seconds</string>
+    <string name="dialog_text">Wait for %s seconds</string>
+    <string name="pre_text_main">Slept for</string>
+    <string name="post_text_main">seconds</string>
+    <string name="text_main">Slept for %s seconds</string>
+    <string name="put_number">Please put a number for second</string>
+</resources>
